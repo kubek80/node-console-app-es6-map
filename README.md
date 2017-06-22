@@ -7,6 +7,8 @@ bash```
   npm i
   npm start
 ```
+
+## Testing
 to test paste in:
 bash```
 Bet:W:1:3
