@@ -1,15 +1,16 @@
 # Simple node terminal application with es6 map
 Please clone or download then run in root folder:
 
-bash```
+```bash
   npm i
   npm start
+  
 ```
 
 ## Testing
 to test paste in:
 
-bash```
+```bash
 Bet:W:1:3
 Bet:W:2:4
 Bet:W:3:5
@@ -47,4 +48,5 @@ Bet:E:2,3:47
 Bet:E:1,3:93
 Bet:E:3,2:51
 Result:2:3:1
+
 ```
