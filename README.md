@@ -6,6 +6,7 @@ Please clone or download then run in root folder:
   npm start
   
 ```
+Used version of node 6.9.1
 
 ## Testing
 to test paste in:

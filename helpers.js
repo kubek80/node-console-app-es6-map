@@ -17,7 +17,8 @@ export const add = (map = new Map(), key, value) => {
 
 export const getYield = (map = new Map(), winner, commission, divider = 1) => {
   const total = getTotal(map, commission) / divider;
-  const bets = map.get(winner);
+  const bets = +map.get(winner) > 0 ? map.get(winner) : 1; // This line should follow some business rules - at this stage preventing division by 0;  
   const rounded = Math.round(total * 100 / bets);
-  return rounded / 100;
+  const result = Number.isFinite(rounded) ? rounded / 100 : 0;
+  return result;
 }
